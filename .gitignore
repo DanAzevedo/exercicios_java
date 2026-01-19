@@ -1,0 +1,14 @@
+# Java 
+*.class 
+*.jar 
+ 
+# Eclipse - TUDO que NÇO ‚ seu c¢digo 
+.metadata/ 
+.settings/ 
+bin/ 
+*.project 
+*.classpath 
+ 
+# Windows 
+Thumbs.db 
+Desktop.ini 
