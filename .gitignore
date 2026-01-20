@@ -2,7 +2,7 @@
 *.class 
 *.jar 
  
-# Eclipse - TUDO que NÇO ‚ seu c¢digo 
+# Eclipse 
 .metadata/ 
 .settings/ 
 bin/ 
