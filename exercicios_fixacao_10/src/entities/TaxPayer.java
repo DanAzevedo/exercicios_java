@@ -3,7 +3,7 @@ package entities;
 public abstract class TaxPayer {
 	
 	protected String name;
-	protected Double annualIncome;
+	protected Double anualIncome;
 	
 	
 	public TaxPayer() {
@@ -12,7 +12,7 @@ public abstract class TaxPayer {
 	
 	public TaxPayer(String name, Double annualIncome) {
 		this.name = name;
-		this.annualIncome = annualIncome;
+		this.anualIncome = annualIncome;
 	}
 	
 	public String getName() {
@@ -24,13 +24,13 @@ public abstract class TaxPayer {
 	}
 	
 	public Double getAnnualIncome() {
-		return annualIncome;
+		return anualIncome;
 	}
 	
 	public void setAnnualIncome(Double annualIncome) {
-		this.annualIncome = annualIncome;
+		this.anualIncome = annualIncome;
 	}
 	
-	protected abstract Double tax();
+	public abstract Double tax();
 
 }
